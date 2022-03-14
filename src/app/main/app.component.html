@@ -1,0 +1,16 @@
+<h1>{{title}}</h1>
+<div class="container bg-secondary">
+  <h3>CASIO</h3>
+<form action="">
+
+  <input type="number" [(ngModel)]="numero1" name="numero1"><br><br>
+  <input type="number" [(ngModel)]="numero2" name="numero2"><br><br>
+  <p id="resultado">{{resultado}}</p>
+  <button (click)="sumar()" class="btn btn-warning" id="botones">+</button>
+  <button (click)="restar()" class="btn btn-warning" id="botones">-</button><br>
+  <button (click)="multiplicar()" class="btn btn-warning"id="botones">X</button>
+  <button (click)="dividir()" class="btn btn-warning" id="botones">/</button>
+
+</form>
+
+</div>

@@ -1,0 +1,14 @@
+.container{
+border: 2mm black solid;
+    height: 310px;
+    width: 220px;
+}
+
+#botones{
+    margin: 1mm;
+    border-bottom: 1mm black solid;
+}
+#resultado{
+    border: 1mm solid black;
+    background-color: rgb(118, 194, 118);
+}
